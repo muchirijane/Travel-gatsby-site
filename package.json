@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "travel-gatsby-site",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "A simple travel based website built for learning how to use Gatsby",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Jane Tracy Muthoni <muchirijane@outlook.com>",
   "dependencies": {
     "gatsby": "^2.25.3",
     "gatsby-image": "^2.4.21",
@@ -27,7 +27,7 @@
   ],
   "license": "0BSD",
   "scripts": {
-    "deploy": "gatsby build && gh-pages -d public -b main",
+    "deploy": "gatsby build && gh-pages -d public -b gh-pages",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
