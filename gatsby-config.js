@@ -1,13 +1,13 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Travel-gatsby-site`,
+    description: `A simple travel based website showcasing the best destinations and deals online.`,
+    author: `Jane Tracy Muthoni`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: `gatsby-plugin-styled-components`,
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
