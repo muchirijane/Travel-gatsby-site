@@ -1,0 +1,26 @@
+[
+  {
+    "img" : "../assets/images/mountains.jpg",
+    "alt" : "Machu Picchu Inca ruins, Peru",
+    "name": "Machu Picchu ruins, Peru",
+    "button" : "view Destination"
+  },
+  {
+    "img" : "../assets/images/kayaking.jpg",
+    "alt" : "water kayaking in Spain",
+    "name": "water kayaking, Spain",
+    "button" : "view Destination"
+  },
+  {
+    "img" : "../assets/images/beach.jpg",
+    "alt" : "Sri Lanka beach",
+    "name": "Sri Lanka beach",
+    "button" : "view Destination"
+  },
+  {
+    "img" : "../assets/images/river.jpg",
+    "alt" : "Unspoiled landscape in Lombok, Indonesia",
+    "name": "Unspoiled landscape, Indonesia",
+    "button" : "view Destination"
+  }
+]
