@@ -44,9 +44,9 @@ const Trips = ({heading}) => {
                 <ProductTitle>{trip.node.name}</ProductTitle>
               </TextWrap>
               <Button 
+              to="/trips"
               primary="true" 
               round="true"
-              to="/trips"
               css={`
                 position: absolute;
                 top: 420px;
@@ -113,8 +113,8 @@ height: 100%;
 max-width: 100%;
 position: relative;
 border-radius: 10px;
-filter: brightness(70%);
-transition: .4s cubic-bezier(0.075, 0.82, 0.165, 1);
+filter: brightness(60%);
+transition: filter .5s cubic-bezier(0.075, 0.82, 0.165, 1);
 
 &:hover{
   filter: brightness(100%);
